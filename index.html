@@ -1,61 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Blog</title>
+  <title>My Personal Blog</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Header -->
   <header>
     <h1>Welcome to My Blog</h1>
-    <p>Sharing my thoughts and ideas 🌸</p>
+    <p>Sharing my thoughts and experiences</p>
   </header>
 
+  <!-- Navigation -->
   <nav>
-    <a href="#">Home</a>
+    <a href="#posts">Posts</a>
     <a href="#about">About</a>
-    <a href="#">Blog</a>
     <a href="#reviews">Reviews</a>
-    <a href="#contact">Contact</a>
   </nav>
 
-  <div class="container">
-    <div class="post">
-      <h2>My First Blog Post</h2>
-      <p>Hello friends! This is my very first blog. I am learning how to make my own website for free using GitHub Pages. 🚀</p>
-    </div>
-
-    <div class="post">
-      <h2>Another Post</h2>
-      <p>Here I can write about my hobbies, school life, or anything I want. This is my personal space online ✨.</p>
-    </div>
-  </div>
+  <!-- Blog Posts -->
+  <section id="posts">
+    <h2>Latest Posts</h2>
+    <article>
+      <h3>My First Blog Post</h3>
+      <p>This is my very first blog post! Excited to share my journey with you all.</p>
+    </article>
+    <article>
+      <h3>Another Day, Another Story</h3>
+      <p>Life is full of stories. Here’s one more from my collection of experiences.</p>
+    </article>
+  </section>
 
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I’m Manvinistha 🌸. This is my personal blog where I share ideas, experiences, and learning journey. 
-    I enjoy writing, exploring new things, and connecting with people.</p>
+    <p>Hi! I’m Manvinistha. I love writing, learning, and sharing my ideas with the world. 
+       This blog is my little corner on the internet where I express my thoughts.</p>
   </section>
 
   <!-- Reviews Section -->
   <section id="reviews">
     <h2>Leave a Review</h2>
     <form>
-      <label for="name">Your Name:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
-
-      <label for="message">Your Review:</label><br>
-      <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-      <button type="submit">Submit</button>
+      <input type="text" placeholder="Your Name" required>
+      <textarea placeholder="Write your review here..." rows="4" required></textarea>
+      <button type="submit">Submit Review</button>
     </form>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 My Blog | Made with ❤ by Me</p>
+    <p>© 2025 Manvinistha’s Blog | Made with ❤️</p>
   </footer>
+
 </body>
 </html>
