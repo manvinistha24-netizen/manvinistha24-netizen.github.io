@@ -1,39 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Blog</title>
+  <title>My Blog</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="hero">
-  <h2>Hello, I’m Manvi srivastava 👋</h2>
-  <p>Welcome to my personal blog where I share ideas, experiences, and learning!</p>
-</section>
-
+  <header>
+    <h1>Welcome to My Blog</h1>
+    <p>Sharing my thoughts and ideas 🌸</p>
   </header>
 
   <nav>
     <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Posts</a>
-    <a href="#">Contact</a>
+    <a href="#about">About</a>
+    <a href="#">Blog</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-  <main>
-    <section>
-      <h2>Latest Post</h2>
-      <p>This is my very first blog post! Soon I will write about my experiences, my learning, and my favorite topics.</p>
-    </section>
-  </main>
+  <div class="container">
+    <div class="post">
+      <h2>My First Blog Post</h2>
+      <p>Hello friends! This is my very first blog. I am learning how to make my own website for free using GitHub Pages. 🚀</p>
+    </div>
 
-<footer>
-  <p>© 2025 My Personal Blog | Made with ❤️ by Manvinistha</p>
-</footer>
-<footer>
-  <p>© 2025 Manvinistha’s Blog | Made with ❤️</p>
-</footer>
+    <div class="post">
+      <h2>Another Post</h2>
+      <p>Here I can write about my hobbies, school life, or anything I want. This is my personal space online ✨.</p>
+    </div>
+  </div>
 
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Manvinistha 🌸. This is my personal blog where I share ideas, experiences, and learning journey. 
+    I enjoy writing, exploring new things, and connecting with people.</p>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews">
+    <h2>Leave a Review</h2>
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="message">Your Review:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My Blog | Made with ❤ by Me</p>
+  </footer>
 </body>
 </html>
