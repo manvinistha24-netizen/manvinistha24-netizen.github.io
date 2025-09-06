@@ -1,81 +1,64 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background: #f5f7fa;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
 }
 
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* Header */
 header {
-  background: #4CAF50;
-  color: white;
+  background: #0077cc;
+  color: #fff;
+  padding: 30px 20px;
   text-align: center;
-  padding: 20px;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Navigation */
 nav {
-  background: #333;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #005fa3;
+  padding: 10px;
 }
 
 nav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-  background: #575757;
+  text-decoration: underline;
 }
 
-.container {
-  padding: 20px;
+/* Blog Posts */
+#posts {
+  padding: 40px;
   max-width: 800px;
   margin: auto;
 }
 
-.post {
-  background: white;
+#posts article {
+  background: #fff;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-}
-.hero {
-  background-image: url('https://picsum.photos/1200/400'); /* sample image */
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2em;
-}
-footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-  font-size: 0.9em;
-}
 /* About Section */
 #about {
   background: #f9f9f9;
@@ -84,18 +67,7 @@ footer {
   max-width: 800px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-#about h2 {
   text-align: center;
-  color: #333;
-  margin-bottom: 15px;
-}
-
-#about p {
-  text-align: center;
-  font-size: 1.1em;
-  line-height: 1.6;
 }
 
 /* Reviews Section */
@@ -106,12 +78,6 @@ footer {
   max-width: 800px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-#reviews h2 {
-  text-align: center;
-  color: #444;
-  margin-bottom: 20px;
 }
 
 #reviews form {
@@ -141,4 +107,14 @@ footer {
 
 #reviews button:hover {
   background: #005fa3;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.9em;
 }
