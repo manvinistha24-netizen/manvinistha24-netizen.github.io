@@ -51,5 +51,20 @@ footer {
   padding: 15px;
   margin-top: 20px;
 }
+.hero {
+  background-image: url('https://picsum.photos/1200/400'); /* sample image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
 
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
 }
