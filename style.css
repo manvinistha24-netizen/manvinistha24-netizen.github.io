@@ -118,3 +118,29 @@ footer {
   margin-top: 20px;
   font-size: 0.9em;
 }
+.personal-blocks {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.block-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.block {
+  display: block;
+  background: #007bff;
+  color: white;
+  padding: 40px 20px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.block:hover {
+  background: #0056b3;
+}
